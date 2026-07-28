@@ -1,0 +1,17 @@
+signal_date,yesterday_holdings,note
+2026-06-29,588000.SH|513520.SH,manual distillation seed from user-provided 2026-07-02 object strategy status history
+2026-06-30,588000.SH|513520.SH,manual distillation seed from user-provided 2026-07-01 object strategy
+2026-07-01,588000.SH|513520.SH,manual distillation seed from user-provided 2026-07-02 object strategy
+2026-07-02,588000.SH|513520.SH,manual distillation seed from user-provided 2026-07-02 object strategy with fetched close data
+2026-07-03,588000.SH|513520.SH,manual distillation seed from user-provided 2026-07-03 object strategy
+2026-07-06,588000.SH|513520.SH,manual distillation seed from user-provided 2026-07-06 object strategy
+2026-07-07,588000.SH|513520.SH,manual distillation seed from user-provided 2026-07-07 object strategy
+2026-07-08,588000.SH|513520.SH,manual distillation seed from user-provided 2026-07-08 object strategy
+2026-07-09,588000.SH|164824.SZ,manual distillation target from user-provided 2026-07-09 object strategy
+2026-07-10,164824.SZ,manual distillation seed from user-provided 2026-07-10 object strategy after 科创50 overheat take-profit exit
+2026-07-13,164824.SZ|588000.SH,manual distillation seed from user-provided 2026-07-13 object strategy target
+2026-07-14,588000.SH|164824.SZ,intraday prediction seed from 2026-07-14 strategy target
+2026-07-15,588000.SH|162411.SZ,manual distillation seed from user-provided 2026-07-15 object strategy target
+2026-07-16,588000.SH|513050.SH,manual distillation seed from user-provided 2026-07-16 object strategy target
+2026-07-17,513050.SH|588000.SH,prediction seed from generated 2026-07-17 strategy target using 2026-07-16 Sina snapshot
+2026-07-20,513050.SH|162411.SZ,manual distillation seed from user-provided 2026-07-20 object strategy target

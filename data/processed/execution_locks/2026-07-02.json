@@ -1,0 +1,13 @@
+{
+  "execution_date": "2026-07-03",
+  "execution_id": "EXE-2026-07-02-c6934524e7",
+  "risk_notice": "/mnt/shared-storage-gpfs2/wam-model-gpfs/cuiwenze/experiment/etf_rotation_rebuild/data/reports/risk_notice_2026-07-02.md",
+  "signal_date": "2026-07-02",
+  "status": "generated",
+  "symbols": [
+    "513520.SH",
+    "588000.SH"
+  ],
+  "trade_sheet": "/mnt/shared-storage-gpfs2/wam-model-gpfs/cuiwenze/experiment/etf_rotation_rebuild/data/reports/trade_sheet_2026-07-02.csv",
+  "updated_at": "2026-07-08T06:17:13.539307+00:00"
+}

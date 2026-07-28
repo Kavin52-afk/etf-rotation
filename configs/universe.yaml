@@ -1,0 +1,164 @@
+broad_etf:
+  max_hold: 2
+  trade: true
+  symbols:
+    - name: 日经225
+      code: 513520.SH
+      asset: overseas_equity
+      qdii: true
+    - name: 纳指
+      code: 513100.SH
+      asset: overseas_equity
+      qdii: true
+    - name: 科创50
+      code: 588000.SH
+      asset: china_equity
+      qdii: false
+    - name: 创业板50
+      code: 159949.SZ
+      asset: china_equity
+      qdii: false
+    - name: 中证A500
+      code: 159338.SZ
+      asset: china_equity
+      qdii: false
+    - name: 中证2000
+      code: 563300.SH
+      asset: china_equity
+      qdii: false
+    - name: 印度
+      code: 164824.SZ
+      asset: overseas_equity
+      qdii: true
+    - name: 德国
+      code: 513030.SH
+      asset: overseas_equity
+      qdii: true
+    - name: 沙特
+      code: 520830.SH
+      asset: overseas_equity
+      qdii: true
+    - name: 可转债
+      code: 511380.SH
+      asset: bond
+      qdii: false
+    - name: 豆粕
+      code: 159985.SZ
+      asset: commodity
+      qdii: false
+    - name: 华宝油气
+      code: 162411.SZ
+      asset: commodity_equity
+      qdii: true
+    - name: 黄金
+      code: 518880.SH
+      asset: commodity
+      qdii: false
+    - name: 红利低波
+      code: 512890.SH
+      asset: china_equity
+      qdii: false
+    - name: 中概互联网
+      code: 513050.SH
+      asset: overseas_equity
+      qdii: true
+
+market_index:
+  max_hold: 0
+  trade: false
+  note: "对象策略 A股大盘标定池，仅用于强弱排序和特征口径对齐，不参与主策略交易"
+  symbols:
+    - name: 科创50
+      code: 000688.SH
+      asset: market_index
+      kind: index
+      secid: "1.000688"
+    - name: 创业板
+      code: 399006.SZ
+      asset: market_index
+      kind: index
+      secid: "0.399006"
+    - name: 中证500
+      code: 000905.SH
+      asset: market_index
+      kind: index
+      secid: "1.000905"
+    - name: 深证100
+      code: 399330.SZ
+      asset: market_index
+      kind: index
+      secid: "0.399330"
+    - name: 中证1000
+      code: 000852.SH
+      asset: market_index
+      kind: index
+      secid: "1.000852"
+    - name: 上证50
+      code: 000016.SH
+      asset: market_index
+      kind: index
+      secid: "1.000016"
+    - name: 沪深300
+      code: 000300.SH
+      asset: market_index
+      kind: index
+      secid: "1.000300"
+    - name: 中证2000
+      code: 932000.CSI
+      asset: market_index
+      kind: index
+      secid: "2.932000"
+
+sector_etf:
+  max_hold: 10
+  trade: false
+  note: "仅观察，不作为第一版主策略"
+  symbols:
+    - name: 半导设备
+      code: 159516.SZ
+    - name: 半导体
+      code: 512480.SH
+    - name: 通信
+      code: 515880.SH
+    - name: 人工智能
+      code: 159819.SZ
+    - name: 证券
+      code: 512880.SH
+    - name: 稀有金属
+      code: 159608.SZ
+    - name: 稀土
+      code: 516150.SH
+    - name: 电网设备
+      code: 159326.SZ
+    - name: 化工
+      code: 159870.SZ
+    - name: 银行
+      code: 512800.SH
+    - name: 机器人
+      code: 159530.SZ
+    - name: 煤炭
+      code: 515220.SH
+    - name: 光伏
+      code: 515790.SH
+    - name: 新能源车
+      code: 515030.SH
+    - name: 新能源
+      code: 516160.SH
+    - name: 云计算
+      code: 516510.SH
+    - name: 大数据
+      code: 515400.SH
+    - name: 军工
+      code: 512660.SH
+    - name: 游戏
+      code: 159869.SZ
+    - name: 传媒
+      code: 512980.SH
+    - name: 医疗
+      code: 512170.SH
+    - name: 医药
+      code: 512010.SH
+    - name: 家电
+      code: 159996.SZ
+    - name: 有色金属
+      code: 512400.SH

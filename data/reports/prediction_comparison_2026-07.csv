@@ -1,0 +1,7 @@
+report_date,signal_close_date,next_trade_date,object_target_codes,object_target_labels,model_final_codes,model_final_labels,model_raw_codes,model_raw_labels,exact_final,exact_raw,object_signal,ignored_signals,override_used,object_next_return_pct,model_final_next_return_pct,model_raw_next_return_pct
+2026-07-03,2026-07-02,2026-07-03,513520.SH|588000.SH,日经二二五、科创五十,588000.SH|513520.SH,科创五十、日经二二五,588000.SH|513520.SH,科创五十、日经二二五,True,True,"买 印度
+卖 中证二千、中证五百、创业板五十",,True,0.7718879181376592,0.7718879181376592,0.7718879181376592
+2026-07-06,2026-07-03,2026-07-06,513520.SH|588000.SH,日经二二五、科创五十,513520.SH|588000.SH,日经二二五、科创五十,513520.SH|588000.SH,日经二二五、科创五十,True,True,无,,True,0.8856154382723469,0.8856154382723469,0.8856154382723469
+2026-07-07,2026-07-06,2026-07-07,513520.SH|588000.SH,日经二二五、科创五十,588000.SH|513520.SH,科创五十、日经二二五,588000.SH|513520.SH,科创五十、日经二二五,True,True,买 豆粕,,True,-0.978280002755183,-0.978280002755183,-0.978280002755183
+2026-07-08,2026-07-07,2026-07-08,513520.SH|588000.SH,日经二二五、科创五十,588000.SH|513520.SH,科创五十、日经二二五,588000.SH|164824.SZ,科创五十、印度,True,False,买 德国,signal_debounce: ignored change within 2 days of 2026-07-06,True,-0.9431929519132853,-0.9431929519132853,-0.12090316139244939
+2026-07-09,2026-07-08,2026-07-09,588000.SH|164824.SZ,科创五十、印度,588000.SH|513520.SH,科创五十、日经二二五,588000.SH|164824.SZ,科创五十、印度,False,True,卖 德国,signal_debounce: ignored change within 2 days of 2026-07-07,True,3.7680313560864818,4.308414590104737,3.7680313560864818

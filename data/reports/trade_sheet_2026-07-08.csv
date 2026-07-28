@@ -1,0 +1,3 @@
+ETF名称,代码,今日操作,仓位变化,风险标签,执行优先级,备注,suggested_weight,confidence_score
+日经225,513520.SH,持有,0.50 -> 0.50,QDII,4,持有 日经225 原因: - 20日动量排名 4 - trend = ↘ - risk overlay = MARKET_SIGNAL_WEAK|BLOCK_NEW_ENTRY_QDII_PREMIUM|TREND_DOWN_EXISTING_ONLY - execution confidence = -488.83 - execution inertia preserves position,0.5,-488.82882551538125
+科创50,588000.SH,持有,0.50 -> 0.50,NORMAL,5,持有 科创50 原因: - 20日动量排名 1 - trend = ↗ - risk overlay = OK - execution confidence = -488.83 - execution inertia preserves position,0.5,-488.82882551538125

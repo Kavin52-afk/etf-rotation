@@ -1,0 +1,14 @@
+price_cache: data/cache/prices.parquet
+sample_price_cache: data/cache/sample_prices.parquet
+premium_cache: data/cache/premium.csv
+reports_dir: data/reports
+labels_dir: data/labels
+raw_dir: data/raw
+fetch_pools:
+  - broad_etf
+  - market_index
+  - sector_etf
+fetch_timeout_seconds: 20
+sample:
+  start: "2020-01-01"
+  seed: 20260628

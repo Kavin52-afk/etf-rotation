@@ -1,0 +1,15 @@
+pandas
+numpy
+pyyaml
+pydantic
+python-docx
+akshare
+requests
+lxml
+beautifulsoup4
+pyarrow
+openpyxl
+rich
+typer
+matplotlib
+pytest

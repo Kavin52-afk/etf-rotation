@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etf_rotation_rebuild"
+version = "0.1.0"
+description = "Research-only ETF rotation strategy rebuild with backtest and daily reports."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+  "pyyaml",
+  "pydantic",
+  "python-docx",
+  "akshare",
+  "requests",
+  "lxml",
+  "beautifulsoup4",
+  "pyarrow",
+  "openpyxl",
+  "rich",
+  "typer",
+  "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+etf-rotation = "etf_rotation.cli:app"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "-q"

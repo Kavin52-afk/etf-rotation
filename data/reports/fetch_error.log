@@ -1,0 +1,6 @@
+AKShare fetch failed; no real price cache was produced.
+Retry with provided proxy also failed.
+Direct Eastmoney connectivity test: proxy 10.1.20.50:23128 connect timeout after 10s.
+Previous proxy 10.1.20.57:23128 returned 403 Forbidden for CONNECT.
+Field mapping in data_provider.py was inspected: 日期/开盘/最高/最低/收盘/成交量/成交额 are mapped to date/open/high/low/close/volume/amount.
+Suggested fix: verify proxy reachability from this workspace or provide a local prices.parquet matching date,code,name,open,high,low,close,volume,amount.

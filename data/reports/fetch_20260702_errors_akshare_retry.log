@@ -1,0 +1,4 @@
+512170.SH 医疗: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=15)"))
+512010.SH 医药: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=15)"))
+159996.SZ 家电: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=15)"))
+512400.SH 有色金属: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=15)"))

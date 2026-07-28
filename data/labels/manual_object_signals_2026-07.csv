@@ -1,0 +1,11 @@
+report_date,yesterday_holdings,target_holdings,ranking_top2,position_state,add_position_signal,buy_signals,sell_signals,source_note
+2026-07-03,588000.SH|513520.SH,513520.SH|588000.SH,588000.SH|513520.SH,full,true,164824.SZ,563300.SH|159338.SZ|159949.SZ,user-provided object strategy text
+2026-07-06,588000.SH|513520.SH,513520.SH|588000.SH,588000.SH|513520.SH,full,true,,,user-provided object strategy text
+2026-07-07,588000.SH|513520.SH,513520.SH|588000.SH,588000.SH|513520.SH,full,true,159985.SZ,,user-provided object strategy text
+2026-07-08,588000.SH|513520.SH,513520.SH|588000.SH,588000.SH|513520.SH,full,true,513030.SH,,user-provided object strategy text
+2026-07-09,588000.SH|513520.SH,588000.SH|164824.SZ,588000.SH|159985.SZ,full,true,,513030.SH,user-provided object strategy text
+2026-07-10,588000.SH|164824.SZ,164824.SZ,588000.SH|164824.SZ,full,false,,,user-provided object strategy text; 588000.SH overheat take-profit exit
+2026-07-13,164824.SZ,164824.SZ|588000.SH,588000.SH|164824.SZ,full,true,,,user-provided object strategy text
+2026-07-15,588000.SH|164824.SZ,588000.SH|162411.SZ,588000.SH|162411.SZ,full,true,162411.SZ,164824.SZ,user-provided 2026-07-15 object strategy text; fixed 23-day momentum entry
+2026-07-16,588000.SH|162411.SZ,588000.SH|513050.SH,588000.SH|513050.SH,full,true,513050.SH,162411.SZ,user-provided 2026-07-16 object strategy text; active-buy weak sell for 162411.SZ
+2026-07-20,513050.SH|588000.SH,513050.SH|162411.SZ,513050.SH|162411.SZ,full,true,162411.SZ,588000.SH,user-provided 2026-07-20 object strategy text; oil-gas reentry after weak-signal sell and 科创50 sell

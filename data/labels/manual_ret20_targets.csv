@@ -1,0 +1,47 @@
+date,module,name,code,ret20_pct,note
+2026-07-01,broad,科创50,588000.SH,24.2,user-provided sample
+2026-07-01,broad,日经225,513520.SH,13.4,user-provided sample
+2026-07-01,broad,创业板50,159949.SZ,8.0,user-provided sample
+2026-07-01,broad,中证A500,159338.SZ,3.4,user-provided sample
+2026-07-01,broad,印度,164824.SZ,1.7,user-provided sample
+2026-07-01,broad,中证2000,563300.SH,0.9,user-provided sample
+2026-07-01,broad,纳指,513100.SH,0.3,user-provided sample
+2026-07-01,broad,可转债,511380.SH,-1.1,user-provided sample
+2026-07-01,broad,沙特,520830.SH,-2.2,user-provided sample
+2026-07-01,broad,德国,513030.SH,-3.6,user-provided sample
+2026-07-01,broad,豆粕,159985.SZ,-4.3,user-provided sample
+2026-07-01,broad,华宝油气,162411.SZ,-7.0,user-provided sample
+2026-07-01,broad,红利低波,512890.SH,-8.1,user-provided sample
+2026-07-01,broad,黄金,518880.SH,-10.8,user-provided sample
+2026-07-01,broad,中概互联网,513050.SH,-14.2,user-provided sample
+2026-07-01,market_index,科创50,000688.SH,24.2,user-provided sample
+2026-07-01,market_index,创业板,399006.SZ,8.8,user-provided sample
+2026-07-01,market_index,中证500,000905.SH,7.0,user-provided sample
+2026-07-01,market_index,深证100,399330.SZ,3.7,user-provided sample
+2026-07-01,market_index,中证1000,000852.SH,3.6,user-provided sample
+2026-07-01,market_index,上证50,000016.SH,2.6,user-provided sample
+2026-07-01,market_index,沪深300,000300.SH,2.3,user-provided sample
+2026-07-01,market_index,中证2000,932000.CSI,-1.9,user-provided sample
+2026-07-13,broad,科创50,588000.SH,25.2,user-provided 2026-07-13 object strategy
+2026-07-13,broad,豆粕,159985.SZ,6.0,user-provided 2026-07-13 object strategy
+2026-07-13,broad,印度,164824.SZ,2.9,user-provided 2026-07-13 object strategy
+2026-07-13,broad,日经225,513520.SH,2.8,user-provided 2026-07-13 object strategy
+2026-07-13,broad,德国,513030.SH,0.9,user-provided 2026-07-13 object strategy
+2026-07-13,broad,中证A500,159338.SZ,0.7,user-provided 2026-07-13 object strategy
+2026-07-13,broad,可转债,511380.SH,-0.6,user-provided 2026-07-13 object strategy
+2026-07-13,broad,沙特,520830.SH,-1.6,user-provided 2026-07-13 object strategy
+2026-07-13,broad,中证2000,563300.SH,-1.7,user-provided 2026-07-13 object strategy
+2026-07-13,broad,纳指,513100.SH,-1.8,user-provided 2026-07-13 object strategy
+2026-07-13,broad,中概互联网,513050.SH,-2.3,user-provided 2026-07-13 object strategy
+2026-07-13,broad,华宝油气,162411.SZ,-4.6,user-provided 2026-07-13 object strategy
+2026-07-13,broad,红利低波,512890.SH,-4.8,user-provided 2026-07-13 object strategy
+2026-07-13,broad,创业板50,159949.SZ,-4.9,user-provided 2026-07-13 object strategy
+2026-07-13,broad,黄金,518880.SH,-5.5,user-provided 2026-07-13 object strategy
+2026-07-13,market_index,科创50,000688.SH,25.2,user-provided 2026-07-13 object strategy
+2026-07-13,market_index,中证500,000905.SH,4.9,user-provided 2026-07-13 object strategy
+2026-07-13,market_index,上证50,000016.SH,3.6,user-provided 2026-07-13 object strategy
+2026-07-13,market_index,沪深300,000300.SH,-0.3,user-provided 2026-07-13 object strategy
+2026-07-13,market_index,中证1000,000852.SH,-0.7,user-provided 2026-07-13 object strategy
+2026-07-13,market_index,创业板,399006.SZ,-2.5,user-provided 2026-07-13 object strategy
+2026-07-13,market_index,中证2000,932000.CSI,-2.9,user-provided 2026-07-13 object strategy
+2026-07-13,market_index,深证100,399330.SZ,-3.2,user-provided 2026-07-13 object strategy

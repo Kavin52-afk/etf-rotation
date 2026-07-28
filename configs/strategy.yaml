@@ -1,0 +1,61 @@
+# Distilled from source labels; see data/reports/ret20_alignment_report.md.
+lookback_momentum: 23
+bias_ma: 20
+trend_ma: 20
+long_ma: 60
+trend_slope_window: 1
+convex_slope_window: 1
+max_hold_broad: 2
+max_hold_sector: 10
+
+signals:
+  buy_confirmation_days: 0
+  sell_confirmation_days: 0
+  profit_execution_delay_days: 1
+  profit_take_on_overheat_for_existing: true
+  profit_take_bias_threshold: 12.0
+  profit_take_min_profit_pct: 0.0
+  qdii_up_signal: normal
+  sell_active_buy_on_market_weak: true
+  buy_reentry_on_market_recovery_after_sell: true
+  buy_reentry_requires_convex_up: true
+
+score:
+  momentum_weight: 1.0
+  trend_up_bonus: 5.0
+  trend_flat_bonus: 0.0
+  trend_down_penalty: -20.0
+  star_bonus: 3.0
+  convex_up_bonus: 2.0
+  holding_bonus: 4.0
+  buy_signal_bonus: 4.0
+  sell_signal_penalty: -999.0
+  overheat_bias_threshold: 12.0
+  overheat_penalty: -6.0
+  extreme_overheat_bias_threshold: 18.0
+  extreme_overheat_penalty: -12.0
+  qdii_premium_warn: 5.0
+  qdii_premium_block: 8.0
+  qdii_premium_penalty: -10.0
+
+rebalance:
+  keep_if_rank_le: 4
+  replace_only_if_new_score_better_by: 3.0
+  allow_flat_trend_for_existing: true
+  allow_flat_trend_for_new: false
+  require_positive_ret20_for_new: true
+
+position_control:
+  default_position: 0.5
+  full_position: 1.0
+  add_when_drawdown_below: -4.0
+  reduce_when_drawdown_below: -12.0
+  half_when_new_high: true
+  max_single_weight_half: 0.25
+  max_single_weight_full: 0.50
+
+backtest:
+  initial_nav: 1.0
+  transaction_cost: 0.0005
+  rebalance_timing: next_open
+  annual_trading_days: 244
